@@ -1,0 +1,16 @@
+\expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi 
+\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{Q1-1-1}{}{SafeSump Inc.}}{3}\relax 
+\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-1000}{QQ2-1-2}{SafeSump Inc.}}{3}\relax 
+\doTocEntry\tocsubsection{0.1}{\csname a:TocLink\endcsname{1}{x1-20001}{QQ2-1-3}{Personal research projects}}{3}\relax 
+\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{Q1-1-4}{}{subsubsection\textit  {Musings on an inexpensive 1500\textdegree C silicon carbide furnace}}}{3}\relax 
+\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-30001}{QQ2-1-5}{\textit  {Musings on an inexpensive 1500\textdegree C silicon carbide furnace}}}{3}\relax 
+\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{Q1-1-6}{}{R\&D in vacuum systems}}{3}\relax 
+\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{1}{x1-40001}{QQ2-1-7}{R\&D in vacuum systems}}{3}\relax 
+\doTocEntry\toclikesubsubsection{}{\csname a:TocLink\endcsname{1}{Q1-1-8}{}{\textit  {Some notes and experiments on the electropermeabilization of viral membranes}}}{4}\relax 
+\doTocEntry\toclikesubsubsection{}{\csname a:TocLink\endcsname{1}{x1-50001}{QQ2-1-9}{\textit  {Some notes and experiments on the electropermeabilization of viral membranes}}}{4}\relax 
+\doTocEntry\tocsubsection{0.2}{\csname a:TocLink\endcsname{1}{x1-60002}{QQ2-1-10}{Broad overview of skills gained from these projects}}{4}\relax 
+\doTocEntry\tocsection{1}{\csname a:TocLink\endcsname{1}{x1-70001}{QQ2-1-11}{Gallery}}{4}\relax 
+\doTocEntry\toclof{1}{\csname a:TocLink\endcsname{1}{x1-7003r1}{}{\ignorespaces *}}{figure}\relax 
+\doTocEntry\toclof{2}{\csname a:TocLink\endcsname{1}{x1-7006r2}{}{\ignorespaces *}}{figure}\relax 
+\doTocEntry\toclof{3}{\csname a:TocLink\endcsname{1}{x1-7011r3}{}{\ignorespaces *}}{figure}\relax 
+\par 

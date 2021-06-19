@@ -1,0 +1,2 @@
+pdftotext resume.pdf
+

@@ -1,0 +1,113 @@
+Daniel Correia
+30 Lamont Creek Drive
+Wasaga Beach, Ontario
+L9Z 1J9
+
+Dear Recruiting Manager,
+Hello!
+In response to the position of Software Developer, kindly ﬁnd my resume
+attached.
+I have about 5 years of experience founding and managing an electronics
+company, performing and documenting associated research, and managing a data collection system, along with a B.Sc. in Science.
+Several reports detailing personal and company projects are linked in the
+body of the resume.
+Thanks for your time!
+
+Hi, I’m Daniel.
+Science rules!
+Daniel Correia
+
+| github.com/0xDBFB7 | therobotist+resume@gmail.com | @0xDBFB7 | 1-705-606-8866
+
+Education:
+B.Sc. in Science from York University, with some
+focus on Physics. Graduated January 2021 with
+B+ GPA.
+
+SafeSump Inc.
+
+R&D in vacuum systems
+A multi-year attempt to develop a high-current ion beam
+lithography system, involving vacuum chamber design
+and fabrication and several custom GPU-accelerated
+simulation tools written in CUDA/C++.
+This codebase can be inspected at
+github.com/0xDBFB7/ionprinter/
+
+Founder/CTO of four-year project to design and produce a failure-resistant water pump system. Funded by
+a $37,500 Ontario Centres of Excellence grant (2017- Some notes and experiments on the electroperme2020) followed by a $75,000 government contract (2018- abilization of viral membranes
+2020).
+Working paper at doi:10.5281/zenodo.4568507
+Broad overview of skills gained:
+• Electronics: Hardware development from inhouse prototyping to volume production; design
+of ultrasonic and capacitive sensors
+• Software and ﬁrmware: Writing and maintaining
+a 20k SLOC codebase of Python and embedded C
+and C++ on STM32 and SAM devices. Version control, frontend and backend programming; Linux
+administration.
+• Soft skills: Pair programming, management, collaboration
+
+0.1
+
+Personal research projects
+
+Musings on an inexpensive 1500°C silicon carbide furnace
+An attempt to make various high-performance ceramic
+techniques available to a broader audience.
+Built on the work of more than 200 scientiﬁc papers.
+A short report on some parts can be found at
+0xdbfb7.com/furnace.html.
+
+0.2
+
+Broad overview of skills gained from
+these projects
+• Documentation: LaTeX, Jupyter notebooks, Reference management
+• Software: Data analysis and automation; Python,
+C++, Mathematica, with a smattering of Julia and
+MATLAB.
+• Simulation: Several dozen toolchains were in use,
+ranging from modiﬁed open-source electromagnetic simulation systems to molecular dynamics
+with GROMACS.
+• Electronics: Microwave electronics design, PCB
+design with KiCAD
+• Fabrication: Electronics prototyping, CNC mill and
+lathe operation, micromachining, microﬂuidics
+
+Personal:
+Member of SimCoLab hackerspace for 7 years.
+Canadian and German citizenship.
+
+1
+
+Gallery
+
+(a)
+
+(b)
+
+Bespoke high vacuum system. GPU-accelerated multigrid data structure and electrostatics solver for
+particle-in-cell ion beam simulation.
+
+(c)
+
+(d)
+
+Redundant controller with a 120 Mhz Atmel ARM processor, running ~10k lines of ﬁrmware.
+
+(e)
+
+(g)
+
+(f)
+
+(h)
+
+(a) A sub-nanosecond kilovolt pulse exposure cell (based on an off-the-shelf avalanche transistor pulser
+design).
+(b) A 12 GHz microwave absorption spectrometer.
+(c) The very pretty opalescent blue culture caused by E. coli B trying to metabolize lactose in an indicator
+for the enzyme β-galactosidase.
+(d) An FDTD simulation of electromagnetic interaction with tissue.
+
+

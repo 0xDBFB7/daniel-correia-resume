@@ -1,0 +1,2 @@
+Press ctl-g to put audio and video into a meta-strip.
+ctl-alt-g undoes this. Tab enters and exits the metastrip.
