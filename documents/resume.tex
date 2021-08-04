@@ -8,7 +8,13 @@ letterpaper]{geometry}
 
 \include{preamble}
 
+\usepackage{xhfill}
 
+
+\newcommand{\ressection}[1]{\textbf{{\Large \textit{#1}}}\xrfill[0.1ex]{0.6pt}}
+
+\newcommand{\sk}[1]{\textcolor{orange}{#1}}
+\newcommand{\tec}[1]{\textcolor{olive}{\textbf{#1}}}
 \begin{document}
 
 
@@ -64,14 +70,14 @@ Thanks for your time!\\
 
 
 
-
+% remember to rename file by name!
 
 
 
 \begingroup
 \fontseries{t}\selectfont
 
-{\Huge Hi, I'm Daniel.}
+{\Huge Hi, I'm Daniel!}
 
 \endgroup
 
@@ -79,60 +85,79 @@ Thanks for your time!\\
 
 %{
 %\centering
-\small{{Daniel Correia}\ \orcidlink{0000-0002-9353-0216} | \href{https://github.com/0xDBFB7}{github.com/0xDBFB7} | therobotist+resume@gmail.com | @0xDBFB7 | 1-705-606-8866\\
-%}
+\begin{center}
+\small{{Daniel Correia}\ \orcidlink{0000-0002-9353-0216} | \href{https://github.com/0xDBFB7}{github.com/0xDBFB7} | therobotist@gmail.com \textit{(preferred)} | @0xDBFB7 | 1-705-606-8866}\\
 \light{\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}}
+\end{center}
 % dcorreia@whimsysciences.com
 
-\begin{multicols}{1}
+% \begin{multicols}{1}
+
+% 8621 https://learner.mycreds.ca/#/sharelink/b664abe7-53a7-4d64-a0f1-bef16337edd0/57724eeb-34ab-4b79-b2a6-cd6bc311039e
 
 \begin{tcolorbox}
-\textbf{Education:\\}
-B.Sc. in Science from York University. Graduated January 2021.
+\textbf{Education:} B.Sc. in Science from York University. Graduated January 2021. \href{https://learner.mycreds.ca/#/sharelink/b664abe7-53a7-4d64-a0f1-bef16337edd0/57724eeb-34ab-4b79-b2a6-cd6bc311039e}{\textit{[verify diploma]}}
 \end{tcolorbox}
 
-\subsection*{SafeSump Inc.}
 
-Founder/CTO of four-year project to design and produce a failure-resistant water pump system. Funded by:
-%
-\begin{itemize}
-\item \$37,500 Ontario Centres of Excellence  \href{https://drive.google.com/file/d/1WXrxVwTggaL7WEvLv6DgJ891fSo7LqqP/view?usp=sharing}{grant \#26828} (2016-2020)
-\item \$75,000 government \href{https://drive.google.com/file/d/11pdJNzYDE-28X3m0rH8mE4cxoliTJZGH/view?usp=sharing}{contract} through Federation of Canadian Municipalities (2018-2020).
+\ressection{SafeSump Inc.}
+
+Founder and CEO of four-year project to design and produce a failure-resistant water pump system to reduce flooding in homes.
+
+Obtained \$37,500 \textit{Ontario Centres of Excellence} \href{https://drive.google.com/file/d/1WXrxVwTggaL7WEvLv6DgJ891fSo7LqqP/view?usp=sharing}{grant \#26828} (2016-2020) and \$75,000 \textit{Federation of Canadian Municipalities} \href{https://drive.google.com/file/d/11pdJNzYDE-28X3m0rH8mE4cxoliTJZGH/view?usp=sharing}{contract} (2018-2020) to develop and install systems in 50 homes.
+
+I was responsible for: \\
+- Developing backend data collection API (\sk{Python}, \sk{Linux}+\sk{Apache} stack, \sk{PostgreSQL}) and frontend UI\\
+- Hardware design of embedded electronic controller (\sk{KiCAD} and \sk{Eagle}), FCC certification\\
+- Conducting presentations\\
+- Pair programming secure firmware (10k lines of \sk{embedded C} on STM32 and SAM4, \sk{C++}, \sk{make}, \sk{bash}), \\
+- Developing data analysis, replication, filtering algorithms (\sk{Python}, \sk{gnuplot})\\
+- Managing production processes, asset tracking, hardware-in-the-loop test systems, \\
+- Series production of custom waterproof capacitive and \href{https://github.com/0xDBFB7/UltimateUltrasonicAmplifier}{ultrasonic} sensors,\\
+- Version control (\sk{Git})
+%\setlength{\columnseprule}{0.4pt}
+%\columnbreak
+
+
+
+\ressection{Research}
+
+Independently designed and carried out an 18-month experiment in the field of bioelectrics on a tight budget, involving
+\begin{itemize}\setlength\itemsep{-1em}
+\item A custom 12 GHz microwave spectrometer and automated microfluidic sampling system
+\item Custom \tec{FDTD} electromagnetic simulation software, \href{https://github.com/flaport/fdtd/pull/27}{now contributed upstream} 
+\item Documentation in \sk{LaTeX}, \sk{Jupyter notebooks}, bibliography management with Zotero and Refbase
+\item Visualization with Paraview and Chimera
+\item Reviewing some 5,000 pages of scientific literature spanning 2,300 papers, highlighting 157 cited
+\item A custom photomultiplier-based synchronous photon counting fluorescence system, capable of detecting single-digit nanograms of DNA (\sk{MAX10 and Cyclone IV FPGAs}, \sk{Verilog HDL}, \tec{photomultiplier tubes})
+\item Molecular dynamics simulation with GROMACS
+\item BSL-1 microbiology with E. coli B and T4 bacteriophage culture and plaque assays
+\item Software-defined radio with HackRF SDR
+\item Managed import paperwork, safety, and disposal of chemical reagents
+\item Negotiating material transfer agreements for datasets
+\item Symbolic mathematics with Maxima, SymPy, Mathematica, MATLAB Symbolic Toolbox
 \end{itemize}
-Broad overview of skills gained:
 
-\begin{itemize}
-	\item \textbf{Electronics}: Custom hardware development from in-house prototyping to volume production; design of ultrasonic and capacitive sensors
-	\item \textbf{Software and firmware}: Writing and maintaining a 20k SLOC codebase of Python and embedded C and C++ on STM32 and SAM devices. Version control, frontend and backend programming; Linux administration.
-	\item \textbf{Soft skills}: Pair programming, management, conducting presentations, collaboration
-\end{itemize}
+Preliminary technical report at doi:\href{https://doi.org/10.5281/zenodo.4568507}{10.5281/zenodo.4568507}
+\pagebreak
 
-\subsection*{Kesti Engineering Ltd.}
+\ressection{High vacuum systems}
 
-Occasional board-level repair on Mazak and Haas CNC machines. A successful repair documented \href{https://0xdbfb7.com/meldas.html}{here}.
-%\subsection*{Personal projects}
-%\subsection*{\textit{Musings on an inexpensive 1500\textdegree C silicon carbide furnace}}
-%
-%An attempt to make various high-performance ceramic techniques available to a broader audience.\\ Built on the work of more than 200 scientific papers.
-%
-%A short report on some parts can be found at \href{https://0xdbfb7.com/furnace.html}{0xdbfb7.com/furnace.html}.
-%
-\subsection*{Vacuum systems}
+\href{https://github.com/0xDBFB7/ionprinter/}{github.com/0xDBFB7/ionprinter/}: An exploration of high-current ion beam lithography techniques. 
 
-\href{https://github.com/0xDBFB7/ionprinter/}{github.com/0xDBFB7/ionprinter/}: A multi-year attempt to explore high-current ion beam lithography. 
-
-Spinoff projects:
-\begin{itemize}
-	\item a GPU-accelerated Particle-In-Cell program called \href{https://github.com/0xDBFB7/Nyion}{Nyion}
-	\item An inexpensive silicon carbide \href{https://0xdbfb7.com/furnace.html}{furnace}:\\ \\
-	An attempt to make various high-performance ceramic techniques available to a broader audience.\\ Built on the work of more than 200 scientific papers. 
-	\item An \href{https://github.com/0xDBFB7/varian-turbo-controller}{inexpensive aftermarket controller} for Varian Turbo-V200 series of turbomolecular pumps 
+Led to the following spinoff projects:
+\begin{itemize}\setlength\itemsep{-1em}
+	\item \href{https://github.com/0xDBFB7/Nyion}{Nyion}: a custom GPU-accelerated plasma simulation program using the particle-in-cell method on a custom block-structured mesh data structure for high computational efficiency\\
+	(C++, cmake, OpenGL, gTest, HPC via CUDA, OpenCL, OpenMP 4.5 offload)
+	\item An inexpensive silicon carbide \href{https://0xdbfb7.com/furnace.html}{furnace} capable of sintering oxide ceramics: an attempt to make various high-performance ceramic techniques available to a broader audience, built on the work of more than 200 scientific papers. 
+	\item An \href{https://github.com/0xDBFB7/varian-turbo-controller}{inexpensive aftermarket controller} for the Varian Turbo-V series of turbomolecular pumps 
 	\item \href{https://gist.github.com/0xDBFB7/7bd7048c6639270e6f291a2673903184}{Control software} for an Inficon BPG-400 vacuum gauge
 \end{itemize}
 
-\subsection*{\textit{Some notes and experiments on the electropermeabilization of viral membranes}}
+\ressection{Kesti Engineering Ltd.}
 
-Technical report at doi:\href{https://doi.org/10.5281/zenodo.4568507}{10.5281/zenodo.4568507}
+Occasional board-level repair on Mazak and Haas CNC machines. A successful repair is documented \href{https://0xdbfb7.com/meldas.html}{here}.
+
 
 
 
@@ -140,7 +165,7 @@ Technical report at doi:\href{https://doi.org/10.5281/zenodo.4568507}{10.5281/ze
 %
 %\subsection{Broad overview of skills gained from these projects}
 %\begin{itemize}
-%	\item \textbf{Documentation}: LaTeX, Jupyter notebooks, Reference management
+
 %	\item \textbf{Software}: Data analysis and automation; Python, C++, Mathematica, with a smattering of Julia and MATLAB.
 %	\item \textbf{Simulation}: Several dozen toolchains were in use, ranging from modified open-source electromagnetic simulation systems to molecular dynamics with GROMACS.
 %	\item \textbf{Electronics}: Microwave electronics design, PCB design with KiCAD
@@ -152,13 +177,19 @@ Technical report at doi:\href{https://doi.org/10.5281/zenodo.4568507}{10.5281/ze
 \begin{tcolorbox}
 	\textbf{Personal:\\}
 	Member of SimCoLab Barrie (now BRiX) hackerspace for 7 years.\\
+	FIRST Robotics  Member of Stayner Team 2013	Cybergnomes	2010-2013\\
 	Canadian and German citizenship.
 \end{tcolorbox}
 %
 
 
+Video on electroadhesion 
+https://www.youtube.com/watch?v=TQFxafFIoNM
 
-\end{multicols}
+
+
+
+
 
 
 \section{Gallery}
