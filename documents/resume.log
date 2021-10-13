@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.9.8)  12 AUG 2021 23:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.9.8)  29 SEP 2021 14:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2279,58 +2279,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--31
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
 
  []
 
 
-Underfull \hbox (badness 1394) in paragraph at lines 51--51
-[]\T1/Roboto-LF/m/n/10.95 I have ex-pe-ri-ence with C++, Linux, em-bed-ded de-v
-ices, and build sys-tems as
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
 
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 51.
+LaTeX Font Info:    Try loading font information for U+msa on input line 52.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 51.
+LaTeX Font Info:    Try loading font information for U+msb on input line 52.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for TS1+Roboto-LF on input lin
-e 51.
+e 52.
 
 (/usr/share/texlive/texmf-dist/tex/latex/roboto/TS1Roboto-LF.fd
 File: TS1Roboto-LF.fd 2015/09/15 (autoinst) Font definitions for TS1/Roboto-LF.
 
 )
 LaTeX Font Info:    Font shape `TS1/Roboto-LF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 51.
+(Font)              scaled to size 10.95pt on input line 52.
 LaTeX Font Info:    Font shape `TS1/Roboto-LF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 51.
+(Font)              scaled to size 8.0pt on input line 52.
 LaTeX Font Info:    Font shape `TS1/Roboto-LF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 51.
+(Font)              scaled to size 6.0pt on input line 52.
  [1
 
 
@@ -2340,88 +2334,88 @@ LaTeX Font Info:    Font shape `TS1/Roboto-LF/m/n' will be
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/Roboto-LF/t/n' will be
-(Font)              scaled to size 10.95pt on input line 81.
+(Font)              scaled to size 10.95pt on input line 71.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/t/n' will be
-(Font)              scaled to size 24.88pt on input line 83.
+(Font)              scaled to size 24.88pt on input line 73.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 87.
+(Font)              scaled to size 12.0pt on input line 77.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 87.
+(Font)              scaled to size 12.0pt on input line 77.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 92.
+(Font)              scaled to size 10.0pt on input line 82.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 92.
+(Font)              <10> on input line 82.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 92.
+(Font)              <7> on input line 82.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 92.
+(Font)              <5> on input line 82.
 LaTeX Font Info:    Font shape `TS1/Roboto-LF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 92.
+(Font)              scaled to size 10.0pt on input line 82.
 LaTeX Font Info:    Font shape `TS1/Roboto-LF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 92.
+(Font)              scaled to size 7.0pt on input line 82.
 LaTeX Font Info:    Font shape `TS1/Roboto-LF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 92.
+(Font)              scaled to size 5.0pt on input line 82.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 92.
+(Font)              scaled to size 10.0pt on input line 82.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 99.
+(Font)              scaled to size 10.95pt on input line 89.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 99.
+(Font)              scaled to size 10.95pt on input line 89.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 103.
+(Font)              scaled to size 14.4pt on input line 93.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/it' will be
-(Font)              scaled to size 14.4pt on input line 103.
+(Font)              scaled to size 14.4pt on input line 93.
 
-Overfull \hbox (20.77426pt too wide) in paragraph at lines 133--134
-[]\T1/Roboto-LF/m/n/10.95 An in-ex-pen-sive [][]fur-nace[][] ca-pa-ble of sin-t
-er-ing ox-ide ce-ram-ics: an at-tempt to make var-i-ous high-performance
+Overfull \hbox (22.23532pt too wide) in paragraph at lines 122--123
+[]\T1/Roboto-LF/m/n/10.95 A cus-tom syn-chronous pho-ton count-ing flu-o-res-ce
+nce sys-tem, ca-pa-ble of de-tect-ing single-digit nanograms
  []
 
 [2
 
 
 ]
-Overfull \hbox (22.23532pt too wide) in paragraph at lines 150--151
-[]\T1/Roboto-LF/m/n/10.95 A cus-tom syn-chronous pho-ton count-ing flu-o-res-ce
-nce sys-tem, ca-pa-ble of de-tect-ing single-digit nanograms
+Overfull \hbox (20.77426pt too wide) in paragraph at lines 144--145
+[]\T1/Roboto-LF/m/n/10.95 An in-ex-pen-sive [][]fur-nace[][] ca-pa-ble of sin-t
+er-ing ox-ide ce-ram-ics: an at-tempt to make var-i-ous high-performance
  []
 
 [3]
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 194.
+(Font)              scaled to size 17.28pt on input line 185.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 194.
+(Font)              scaled to size 17.28pt on input line 185.
  <../media/vacuum.png, id=45, 553.06625pt x 389.455pt>
 File: ../media/vacuum.png Graphic file (type png)
 
 <use ../media/vacuum.png>
-Package pdftex.def Info: ../media/vacuum.png used on input line 200.
+Package pdftex.def Info: ../media/vacuum.png used on input line 191.
 (pdftex.def)             Requested size: 250.24199pt x 176.20988pt.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 200.
+(Font)              scaled to size 9.0pt on input line 191.
 
 <../media/digraph.png, id=46, 2495.3225pt x 804.00375pt>
 File: ../media/digraph.png Graphic file (type png)
 
 <use ../media/digraph.png>
-Package pdftex.def Info: ../media/digraph.png used on input line 203.
+Package pdftex.def Info: ../media/digraph.png used on input line 194.
 (pdftex.def)             Requested size: 250.24199pt x 80.6259pt.
 
-Overfull \hbox (10.84483pt too wide) in paragraph at lines 200--204
+Overfull \hbox (10.84483pt too wide) in paragraph at lines 191--195
  [][][][] 
  []
 
 <../media/image1.jpg, id=48, 803.0pt x 602.25pt>
 File: ../media/image1.jpg Graphic file (type jpg)
  <use ../media/image1.jpg>
-Package pdftex.def Info: ../media/image1.jpg used on input line 217.
+Package pdftex.def Info: ../media/image1.jpg used on input line 208.
 (pdftex.def)             Requested size: 200.19054pt x 150.1394pt.
 
 <../media/safesump.png, id=49, 430.60875pt x 305.14pt>
 File: ../media/safesump.png Graphic file (type png)
 
 <use ../media/safesump.png>
-Package pdftex.def Info: ../media/safesump.png used on input line 221.
+Package pdftex.def Info: ../media/safesump.png used on input line 212.
 (pdftex.def)             Requested size: 200.19054pt x 141.86069pt.
 
 <../media/pulse_exposure_setup.JPG, id=50, 3661.68pt x 2746.26pt>
@@ -2429,17 +2423,17 @@ File: ../media/pulse_exposure_setup.JPG Graphic file (type jpg)
 
 <use ../media/pulse_exposure_setup.JPG>
 Package pdftex.def Info: ../media/pulse_exposure_setup.JPG used on input line 2
-35.
+26.
 (pdftex.def)             Requested size: 250.24199pt x 187.64835pt.
 
 <../media/eppenwolf_2.jpg, id=51, 4063.18pt x 3047.385pt>
 File: ../media/eppenwolf_2.jpg Graphic file (type jpg)
 
 <use ../media/eppenwolf_2.jpg>
-Package pdftex.def Info: ../media/eppenwolf_2.jpg used on input line 238.
+Package pdftex.def Info: ../media/eppenwolf_2.jpg used on input line 229.
 (pdftex.def)             Requested size: 250.24199pt x 187.67113pt.
 
-Overfull \hbox (10.84483pt too wide) in paragraph at lines 235--239
+Overfull \hbox (10.84483pt too wide) in paragraph at lines 226--230
  [][][][] 
  []
 
@@ -2447,14 +2441,14 @@ Overfull \hbox (10.84483pt too wide) in paragraph at lines 235--239
 File: ../media/x_gal.jpg Graphic file (type jpg)
 
 <use ../media/x_gal.jpg>
-Package pdftex.def Info: ../media/x_gal.jpg used on input line 242.
+Package pdftex.def Info: ../media/x_gal.jpg used on input line 233.
 (pdftex.def)             Requested size: 200.19054pt x 238.8069pt.
 
 <../media/bronch_9GHz_500W_2.png, id=53, 1261.71375pt x 694.595pt>
 File: ../media/bronch_9GHz_500W_2.png Graphic file (type png)
 
 <use ../media/bronch_9GHz_500W_2.png>
-Package pdftex.def Info: ../media/bronch_9GHz_500W_2.png used on input line 246
+Package pdftex.def Info: ../media/bronch_9GHz_500W_2.png used on input line 237
 .
 (pdftex.def)             Requested size: 250.24199pt x 137.76128pt.
  [4
@@ -2462,10 +2456,10 @@ Package pdftex.def Info: ../media/bronch_9GHz_500W_2.png used on input line 246
  <../media/vacuum.png> <../media/digraph.png> <../media/image1.jpg> <../media/s
 afesump.png>] [5 <../media/pulse_exposure_setup.JPG> <../media/eppenwolf_2.jpg>
  <../media/x_gal.jpg> <../media/bronch_9GHz_500W_2.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 257.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 257.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 248.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 248.
  (./resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 257.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 248.
 
 
  *File List*
@@ -2686,18 +2680,18 @@ TS1Roboto-LF.fd    2015/09/15 (autoinst) Font definitions for TS1/Roboto-LF.
 ../media/bronch_9GHz_500W_2.png
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 257.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 248.
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: E58279D960DD64E2BA0BECE86B872281;42.
 Package logreq Info: Writing requests to 'resume.run.xml'.
 \openout1 = `resume.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 257.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 248.
  ) 
 Here is how much of TeX's memory you used:
  41291 strings out of 494945
  774066 string characters out of 6181033
- 1201104 words of memory out of 5000000
+ 1202104 words of memory out of 5000000
  43836 multiletter control sequences out of 15000+600000
  104191 words of font info for 82 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -2710,7 +2704,7 @@ roboto/Roboto-BoldItalic.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/
 roboto/Roboto-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/robo
 to/Roboto-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/roboto/
 Roboto-Thin.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb>
-Output written on resume.pdf (5 pages, 2972434 bytes).
+Output written on resume.pdf (5 pages, 2973123 bytes).
 PDF statistics:
  106 PDF objects out of 1000 (max. 8388607)
  82 compressed objects within 1 object stream
