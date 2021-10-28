@@ -1,0 +1,72 @@
+Hi, I’m Daniel!
+Science rules!
+
+Daniel Correia
+therobotist@gmail.com (preferred)
+https://github.com/0xDBFB7
+1-705-606-8866
+
+Education: B.Sc. in Science from York University. Graduated January 2021.
+2 years computer science and electrical engineering; 
+balance comprised of experimental physics, statistics, chemistry, mathematics, misc
+
+[ diploma can be verified via: https://learner.mycreds.ca/#/sharelink/b664abe7-53a7-4d64-a0f1-bef16337edd0/57724eeb-34ab-4b79-b2a6-cd6bc311039e ]
+
+[SafeSump Inc.]
+
+Founder and CEO of four-year project to design and produce a failure-resistant internet-connected water pump system to reduce ﬂooding in homes.
+
+Obtained $37,500 Ontario Centres of Excellence grant #26828 (2016-2020) and $75,000 Federation of Canadian Municipalities contract (2018-2020) to develop and install systems in 50 homes.
+
+I was responsible for:
+
+- Developing backend data collection API (Python, Linux+Apache stack, PostgreSQL) and frontend UI
+- Hardware design for embedded electronic controller (KiCAD and Eagle)
+- Conducting presentations and reporting to partners
+- Pair programming secure ﬁrmware (10k lines of embedded C on STM32 and SAM4, C++, make, bash),
+- Developing data analysis, replication, ﬁltering algorithms (Python, gnuplot)
+- Managing production processes, asset tracking, hardware-in-the-loop test systems,
+- Series production of custom waterproof capacitive and ultrasonic sensors,
+- Version control (Git)
+
+[Technical reports]
+
+A recent project involved:
+
+- A custom 12 GHz microwave spectrometer and automated microﬂuidic sampling system
+- Custom FDTD electromagnetic simulation software, now contributed upstream ( https://github.com/flaport/fdtd/pull/27 )
+- Documentation in LaTeX, Jupyter notebooks, bibliography management with Zotero and Refbase
+- Data visualization with Paraview and Chimera, analysis with Python
+- Reviewing some 5,000 pages of scientiﬁc literature spanning 2,300 papers, highlighting 157 cited
+- A custom synchronous photon counting ﬂuorescence system, capable of detecting single-digit nanograms of DNA without ampliﬁcation (MAX10 and Cyclone IV FPGAs, Verilog HDL, photomultipliers)
+- CNC mill and lathe operation
+- Molecular dynamics simulation with GROMACS
+- BSL-1 microbiology with E. coli B and T4 bacteriophage culture and plaque assays
+- Managing import paperwork, safety, and disposal of chemical reagents
+- Negotiating material transfer agreements for datasets
+- Symbolic mathematics with Maxima, SymPy, Mathematica, MATLAB
+- Falling in love with JuliaLang
+
+[High vacuum systems]
+
+- 0xDBFB7/ionprinter/: A cursory exploration of high-current ion beam lithography techniques.
+Led to the following spinoff projects:
+- Nyion ( https://github.com/0xDBFB7/Nyion ): a custom GPU-accelerated plasma simulation program using the particle-in-cell method on a custom block-structured mesh data structure for high computational efﬁciency (C++, cmake, OpenGL, gTest, minor HPC with CUDA, OpenCL, OpenMP+4.5 ofﬂoad)
+- An inexpensive furnace ( https://0xdbfb7.com/furnace.html ) capable of sintering oxide ceramics: an attempt to make various high-performance ceramic techniques available to a broader audience, built on the work of more than 200 scientiﬁc papers.
+- An inexpensive aftermarket controller ( https://github.com/0xDBFB7/varian-turbo-controller ) for the Varian Turbo-V series of turbomolecular pumps
+- Control software for an Inﬁcon BPG-400 vacuum gauge
+
+[Kesti Engineering Ltd.]
+
+Occasional board-level repair on Mazak and Haas CNC machines. A successful repair is documented here.
+
+No meaningful experience yet with
+- R or FORTRAN
+- Advanced physics or mathematics beyond ﬁrst-year graduate level
+- Most things, on balance
+
+Personal:
+- Member of SimCoLab Barrie (now BRiX) hackerspace for 7 years.
+- Part of FIRST Robotics Team 2013 Cybergnomes from 2010 to 2013
+- Canadian and German citizenship, native English, broken German
+- A video on electroadhesion

@@ -22,37 +22,31 @@ letterpaper]{geometry}
 
 
 
-
-
-Daniel Correia\\
-20 Silver Glen Blvd,\\
-Collingwood, Ontario, Canada\\
-L9Y 0G9\\
-
-
-
-\vspace{3 cm}
-\noindent\par
-\noindent\makebox[\textwidth][c]{%
-\begin{minipage}{0.8\textwidth}
-
-\end{minipage}}
-
-
-
-
-\restoregeometry
-
-
-\clearpage
-
-
-
-
+%
+%
+%Daniel Correia\\
+%20 Silver Glen Blvd,\\
+%Collingwood, Ontario, Canada\\
+%L9Y 0G9\\
+%
+%
+%
+%\vspace{3 cm}
+%\noindent\par
+%\noindent\makebox[\textwidth][c]{%
+%\begin{minipage}{0.8\textwidth}
+%
+%\end{minipage}}
+%
+%
+%
+%
+%\restoregeometry
+%
+%
+%\clearpage
 
 % remember to rename file by name!
-
-
 
 \begingroup
 \fontseries{t}\selectfont
@@ -67,86 +61,98 @@ L9Y 0G9\\
 %\centering
 \begin{center}
 \small{{Daniel Correia}\ \orcidlink{0000-0002-9353-0216} | \href{https://github.com/0xDBFB7}{github.com/0xDBFB7} | therobotist@gmail.com \textit{(preferred)} | @0xDBFB7 | 1-705-606-8866}\\
-\light{\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}}
+%\light{\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}} - add if education moved back up
 \end{center}
 % dcorreia@whimsysciences.com
 
 
-\begin{tcolorbox}
-\textbf{Education:} B.Sc. in Science from York University. Graduated January 2021. \href{https://learner.mycreds.ca/#/sharelink/b664abe7-53a7-4d64-a0f1-bef16337edd0/57724eeb-34ab-4b79-b2a6-cd6bc311039e}{\textit{[verify diploma]}}
-\end{tcolorbox}
 
 
 \ressection{SafeSump Inc.}
 
-Founder and CEO of four-year project to design and produce a failure-resistant internet-connected water pump system to reduce flooding in homes.
+Co-founder and CTO of a project to design and manufacture a failure-resistant internet-connected water pump system to reduce the incidence of flooding in homes. %Granted US Patents \href{https://patents.google.com/patent/US10634146B2/en}{10,634,146} and \href{https://patents.google.com/patent/US11073154B2/en}{11,073,154}. Tremendous dislike of patents and IP protection.
 
-Obtained \$37,500 \textit{Ontario Centres of Excellence} \href{https://drive.google.com/file/d/1WXrxVwTggaL7WEvLv6DgJ891fSo7LqqP/view?usp=sharing}{grant \#26828} (2016-2020) and \$75,000 \textit{Federation of Canadian Municipalities} \href{https://drive.google.com/file/d/11pdJNzYDE-28X3m0rH8mE4cxoliTJZGH/view?usp=sharing}{contract} (2018-2020) to develop and install systems in 50 homes.
+Obtained \$37,500 \textit{Ontario Centres of Excellence} \href{https://drive.google.com/file/d/1WXrxVwTggaL7WEvLv6DgJ891fSo7LqqP/view?usp=sharing}{grant \#26828} (2016-2020) and fulfilled \$75,000 \textit{Federation of Canadian Municipalities} \href{https://drive.google.com/file/d/11pdJNzYDE-28X3m0rH8mE4cxoliTJZGH/view?usp=sharing}{contract} (2018-2020) to develop and install systems in 50 homes.
 
 I was responsible for:
 \begin{itemize}\itemoptions
-\item Developing backend data collection API (\sk{Python}, \sk{Linux}+\sk{Apache} stack, \sk{PostgreSQL}) and frontend UI
-\item Hardware design for embedded electronic controller (\sk{KiCAD} and \sk{Eagle})
-\item  Conducting presentations and reporting to partners
-\item Pair programming secure firmware (10k lines of \sk{embedded C} on STM32 and SAM4, \sk{C++}, \sk{make}, \sk{bash}), 
+\item Hardware design and prototyping for embedded electronic controller (\sk{KiCAD} and \sk{Eagle})
+\item Developing backend data collection API (\sk{Python}, \sk{Linux}+\sk{Apache} stack, \sk{PostgreSQL}, \sk{Git}) %web UI design
+\item Pair programming secure firmware and OTA system (\sk{embedded C} and \sk{C++} on STM32 and SAM4, \sk{make}, \sk{bash})
+\item Frontend work on a user-facing dashboard to view pump status and modify settings (\sk{HTML}, \sk{JS})
+\item Conducting presentations and reporting to partners
 \item Developing data analysis, replication, filtering algorithms (\sk{Python}, \sk{gnuplot})
-\item Managing production processes, asset tracking, hardware-in-the-loop test systems, 
-\item Series production of custom waterproof capacitive and \href{https://github.com/0xDBFB7/UltimateUltrasonicAmplifier}{ultrasonic} sensors,
-\item Version control (\sk{Git})
+\item Managing production processes, asset tracking, hardware-in-the-loop test systems
+\item Creating test cells and batch programming systems for custom capacitive and \href{https://github.com/0xDBFB7/UltimateUltrasonicAmplifier}{ultrasonic} sensors
 \end{itemize}
 %\setlength{\columnseprule}{0.4pt}
 %\columnbreak
 
-\ressection{Technical reports}
+\light{\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}}
 
-Fully independently designed and carried out an 18-month experiment in the field of bioelectrics on a tight budget, involving
+\begin{tcolorbox}
+	\textbf{Education:} B.Sc. in Science from York University. Graduated January 2021. \href{https://learner.mycreds.ca/#/sharelink/b664abe7-53a7-4d64-a0f1-bef16337edd0/57724eeb-34ab-4b79-b2a6-cd6bc311039e}{\textit{[verify diploma]}} \\
+	{\small(Emphasis on electrical engineering, computer science, experimental physics, statistics, chemistry, mathematics, misc)}
+\end{tcolorbox}
+% add more grade details
+
+
+\ressection{Projects and skills}
+
+Experience independently learning and applying skills as needed to contribute to broad, highly interdisciplinary projects. For example, one recent project involved:
+%Fully independently designed and carried out an 18-month experiment in the field of bioelectrics on a tight budget, involving
 \begin{itemize}\itemoptions
-	\item A custom 12 GHz microwave spectrometer and automated microfluidic sampling system
+	\item A \href{https://github.com/0xDBFB7/fluorescence_photon_counting/releases/download/v0.01/fluorescence.pdf}{custom synchronous photon counting fluorescence system}, capable of detecting less than a nanogram of dsDNA without amplification (\sk{MAX10 and Cyclone IV FPGAs}, \sk{Verilog HDL})
 	\item Custom FDTD electromagnetic simulation software, \href{https://github.com/flaport/fdtd/pull/27}{now contributed upstream} 
-	\item Documentation in \sk{LaTeX}, \sk{Jupyter notebooks}, bibliography management with Zotero and Refbase
-	\item Data visualization with Paraview and Chimera, analysis with \sk{Python}
-	\item Reviewing some 5,000 pages of scientific literature spanning 2,300 papers, highlighting 157 cited
-	\item A custom synchronous photon counting fluorescence system, capable of detecting single-digit nanograms of DNA without amplification (\sk{MAX10 and Cyclone IV FPGAs}, \sk{Verilog HDL}, photomultipliers)
-	\item CNC mill and lathe operation
+	\item Scientific programming with JuliaLang, analysis with Python, symbolic mathematics with Maxima, SymPy, Mathematica, MATLAB
+	\item Developing a custom 12 GHz microwave spectrometer and automated microfluidic sampling system
+	\item Technical writing, documentation in \sk{LaTeX}, \sk{Jupyter notebooks}, bibliography management with Zotero and Refbase
+%	\item Data visualization with Paraview, Chimera analysis with \sk{Python}
+	%	\item Reviewing some 5,000 pages of scientific literature spanning 2,300 papers, highlighting 157 cited
+	\item Hardware design and CNC mill and lathe operation
 	\item Molecular dynamics simulation with GROMACS
-	\item BSL-1 microbiology with E. coli B and T4 bacteriophage culture and plaque assays
+	%	\item BSL-1 microbiology with E. coli B and T4 bacteriophage culture and plaque assays
 	\item Managing import paperwork, safety, and disposal of chemical reagents
 	\item Negotiating material transfer agreements for datasets
-	\item Symbolic mathematics with Maxima, SymPy, Mathematica, MATLAB
-	\item Falling in love with \sk{JuliaLang}
+	\item Collaborating and consulting with subject-matter experts
 \end{itemize}
-
-Preliminary technical report available at doi:\href{https://doi.org/10.5281/zenodo.4568506}{10.5281/zenodo.4568506}
 
 \pagebreak
 
-\ressection{High vacuum systems}
+Other representative projects include:
 
-\href{https://github.com/0xDBFB7/ionprinter/}{0xDBFB7/ionprinter/}: A cursory exploration of high-current ion beam lithography techniques. 
+%\href{https://github.com/0xDBFB7/ionprinter/}{0xDBFB7/ionprinter/}: A cursory exploration of high-current ion beam lithography techniques. 
 
-Led to the following spinoff projects:
+%Led to the following spinoff projects:
 \begin{itemize}\itemoptions
 	\item \href{https://github.com/0xDBFB7/Nyion}{Nyion}: a custom GPU-accelerated plasma simulation program using the particle-in-cell method on a custom block-structured mesh data structure for high computational efficiency\\
 	(\sk{C++}, \sk{cmake}, \sk{OpenGL}, \sk{gTest}, minor \sk{HPC} with \sk{CUDA}, \sk{OpenCL}, \sk{OpenMP}+4.5 offload)
-	\item An inexpensive \href{https://0xdbfb7.com/furnace.html}{furnace} capable of sintering oxide ceramics: an attempt to make various high-performance ceramic techniques available to a broader audience, built on the work of more than 200 scientific papers. 
+	\item An inexpensive \href{https://0xdbfb7.com/furnace.html}{furnace} capable of sintering oxide ceramics: an attempt to make various high-performance ceramic techniques available to a broader audience%, built on the work of more than 200 scientific papers. 
 	\item An \href{https://github.com/0xDBFB7/varian-turbo-controller}{inexpensive aftermarket controller} for the Varian Turbo-V series of turbomolecular pumps 
 	\item \href{https://gist.github.com/0xDBFB7/7bd7048c6639270e6f291a2673903184}{Control software} for an Inficon BPG-400 vacuum gauge
 \end{itemize}
-%\pagebreak
 
+
+
+
+
+%Preliminary technical report available at doi:\href{https://doi.org/10.5281/zenodo.4568506}{10.5281/zenodo.4568506}
 
 
 
 \ressection{Kesti Engineering Ltd.}
 
-Occasional board-level repair on Mazak and Haas CNC machines. A successful repair is documented \href{https://0xdbfb7.com/meldas.html}{here}.
+Occasional board-level repair of Mazak and Haas CNC machines. A successful repair is documented \href{https://0xdbfb7.com/meldas.html}{here}.
 
-\ressection{No meaningful experience yet with}
+\ressection{Notable deficiencies of experience}
+
+I have completed real-world projects using each of the listed technologies, and I am confident that I can contribute to any of the subjects listed above. However, certain large fields would require a very significant time expenditure to work efficiently. Some examples of fields for which more experienced candidates :
 
 \begin{itemize}\itemoptions
 	\item R or FORTRAN
-	\item Advanced physics or mathematics beyond first-year graduate level
-	\item Most things, on balance
+	\item Advanced physics or mathematics
+	\item Organic chemistry
+	\item well, most things, on balance
 \end{itemize}
 
 
@@ -155,81 +161,80 @@ Occasional board-level repair on Mazak and Haas CNC machines. A successful repai
 
 %
 \begin{tcolorbox}
-	\textbf{Personal:\\}
-	Member of SimCoLab Barrie (now BRiX) hackerspace for 7 years.\\
-	Part of FIRST Robotics Team 2013 Cybergnomes from 2010 to 2013\\
-	Canadian and German citizenship, native English, broken German\\
+	\textbf{Other activities:\\}
+	\begin{itemize}\itemoptions
+	\item 7 years as member of \href{https://www.facebook.com/simcolab/}{SimCoLab} (now BRiX) hackerspace in Barrie, Ontario. \\
+	\item Part of FIRST Robotics Team 2013 Cybergnomes from 2010 to 2013\\
+	\item Canadian and German citizenship, native English, broken German\\
 	%\href{https://github.com/0xDBFB7/scientific_standards}{An essay on standardization in science}\\
-	\href{https://www.youtube.com/watch?v=TQFxafFIoNM}{A video on electroadhesion}
+%	\item \href{https://www.youtube.com/watch?v=TQFxafFIoNM}{A video on electroadhesion}
+	\end{itemize}
 \end{tcolorbox}
 %
 
 
 
 
-\clearpage
+%\clearpage
 
-\section{Gallery}
-\begin{figure}[H]
-	%	\makebox[\textwidth][c]{
-	\centering
-	\subfloat[]{
-		\includegraphics[width=0.5\textwidth]{vacuum}
-	}
-	\subfloat[]{
-		\includegraphics[width=0.5\textwidth]{digraph.png}
-	}
-	\caption*{A bespoke high-vacuum system. GPU-accelerated multigrid data structure and electrostatics solver for particle-in-cell ion beam simulation.}
-	\hfill
-	
-\end{figure}
+%\section{Gallery}
 
-
-
-\begin{figure}[H]
-	%	\makebox[\textwidth][c]{
-	\centering
-	\subfloat[]{
-		\includegraphics[width=0.4\textwidth]{image1}
-		
-	}
-	\subfloat[]{
-		\includegraphics[width=0.4\textwidth]{safesump.png}
-		
-	}
-	\caption*{Controller designed for SafeSump Inc.}
-	\hfill
-	
-\end{figure}
-
-
-
-\begin{figure}[H]
-	\centering
-	
-	\subfloat[]{
-		\includegraphics[width=0.5\textwidth]{pulse_exposure_setup}
-		
-	}
-	\subfloat[]{
-		\includegraphics[width=0.5\textwidth]{eppenwolf_2}
-	}
-	
-	\subfloat[]{
-		\includegraphics[width=0.4\textwidth]{x_gal.jpg}
-	}
-	\hfill
-	\subfloat[]{
-		\includegraphics[width=0.5\textwidth]{bronch_9GHz_500W_2}
-	}
-	
-	\caption*{\\ (a) A sub-nanosecond kilovolt pulse exposure cell (based on an off-the-shelf avalanche transistor pulser design). \\ (b) A 12 GHz microwave absorption spectrometer. \\(c) The very pretty opalescent blue culture caused by E. coli B trying to metabolize lactose in an indicator for the enzyme $\beta$-galactosidase.\\ (d) An FDTD simulation of electromagnetic interaction with tissue. }
-\end{figure}
-
-
-
+%
+%\begin{figure}[H]
+%	%	\makebox[\textwidth][c]{
+%	\centering
+%	\subfloat[]{
+%		\includegraphics[width=0.4\textwidth]{image1}
+%		
+%	}
+%	\subfloat[]{
+%		\includegraphics[width=0.4\textwidth]{safesump.png}
+%		
+%	}
+%	\caption*{Controller designed for SafeSump Inc.}
+%	\hfill
+%	
+%\end{figure}
+%
+%%\begin{figure}[H]
+%%	%	\makebox[\textwidth][c]{
+%%	\centering
+%%	\subfloat[]{
+%%		\includegraphics[width=0.5\textwidth]{vacuum}
+%%	}\\
+%%	\subfloat[]{
+%%		\includegraphics[width=\textwidth]{digraph.png}
+%%	}
+%%	\caption*{A bespoke high-vacuum system. Data structure diagram for Nyion GPU-accelerated multigrid electrostatics solver for particle-in-cell ion beam simulation.}
+%%	\hfill
+%%	
+%%\end{figure}
+%%
+%%
+%%%
+%%%\begin{figure}[H]
+%%%	\centering
+%%%	
+%%%	\subfloat[]{
+%%%		\includegraphics[width=0.5\textwidth]{pulse_exposure_setup}
+%%%		
+%%%	}
+%%%	\subfloat[]{
+%%%		\includegraphics[width=0.5\textwidth]{eppenwolf_2}
+%%%	}
+%%%	
+%%%	\subfloat[]{
+%%%		\includegraphics[width=0.4\textwidth]{x_gal.jpg}
+%%%	}
+%%%	\hfill
+%%%	\subfloat[]{
+%%%		\includegraphics[width=0.5\textwidth]{bronch_9GHz_500W_2}
+%%%	}
+%%%	
+%%%	\caption*{\\ (a) A sub-nanosecond avalanche transistor impulse system. \\ (b) Custom 12 GHz microwave absorption spectrometer described above. \\(c) The very pretty opalescent blue culture caused by E. coli B trying to metabolize lactose in an indicator for the enzyme $\beta$-galactosidase.\\ (d) An FDTD simulation of electromagnetic interaction with tissue. }
+%%%\end{figure}
+%%%
 
 
 
-1
 \end{document}
