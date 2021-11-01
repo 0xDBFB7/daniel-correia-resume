@@ -18,6 +18,8 @@ letterpaper]{geometry}
 
 \newcommand{\itemoptions}{\setlength{\itemindent}{-10pt} \setlength\itemsep{-1em}}
 
+\captionsetup[subfigure]{labelformat=empty}
+
 \begin{document}
 
 
@@ -60,23 +62,27 @@ letterpaper]{geometry}
 %{
 %\centering
 \begin{center}
-\small{{Daniel Correia}\ \orcidlink{0000-0002-9353-0216} | \href{https://github.com/0xDBFB7}{github.com/0xDBFB7} | therobotist@gmail.com \textit{(preferred)} | @0xDBFB7 | 1-705-606-8866}\\
+\small{{Daniel Correia}\ \orcidlink{0000-0002-9353-0216} 
+	\let\orighref\href%don't put a link icon next to the orcid
+	\renewcommand{\href}[2]{\orighref{#1}{#2\,{\footnotesize{\faExternalLink}}}}
+	| \href{https://github.com/0xDBFB7}{github.com/0xDBFB7} | therobotist@gmail.com \textit{(preferred)} | @0xDBFB7 | 1-705-606-8866}\\
 %\light{\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}} - add if education moved back up
 \end{center}
 % dcorreia@whimsysciences.com
 
-
+\let\orighref\href%don't put a link icon next to the orcid
+\renewcommand{\href}[2]{\orighref{#1}{#2\,{\footnotesize{\faExternalLink}}}}
 
 
 \ressection{SafeSump Inc.}
 
-Co-founder and CTO of a project to design and manufacture a failure-resistant internet-connected water pump system to reduce the incidence of flooding in homes. %Granted US Patents \href{https://patents.google.com/patent/US10634146B2/en}{10,634,146} and \href{https://patents.google.com/patent/US11073154B2/en}{11,073,154}. Tremendous dislike of patents and IP protection.
+Co-founder and CTO of a project to design and manufacture a failure-resistant internet-connected water pump system to reduce the incidence of flooding in homes.\\\\ Together with a partner company specializing in hydrogeology, we simultaneously collected and analyzed data from the systems in an attempt to better inform municipalities on groundwater flow.%Granted US Patents \href{https://patents.google.com/patent/US10634146B2/en}{10,634,146} and \href{https://patents.google.com/patent/US11073154B2/en}{11,073,154}. Tremendous dislike of patents and IP protection.
 
 Obtained \$37,500 \textit{Ontario Centres of Excellence} \href{https://drive.google.com/file/d/1WXrxVwTggaL7WEvLv6DgJ891fSo7LqqP/view?usp=sharing}{grant \#26828} (2016-2020) and fulfilled \$75,000 \textit{Federation of Canadian Municipalities} \href{https://drive.google.com/file/d/11pdJNzYDE-28X3m0rH8mE4cxoliTJZGH/view?usp=sharing}{contract} (2018-2020) to develop and install systems in 50 homes.
 
 I was responsible for:
 \begin{itemize}\itemoptions
-\item Hardware design and prototyping for embedded electronic controller (\sk{KiCAD} and \sk{Eagle})
+\item Hardware design and SMD prototyping for embedded electronic controller (\sk{KiCAD} and \sk{Eagle})
 \item Developing backend data collection API (\sk{Python}, \sk{Linux}+\sk{Apache} stack, \sk{PostgreSQL}, \sk{Git}) %web UI design
 \item Pair programming secure firmware and OTA system (\sk{embedded C} and \sk{C++} on STM32 and SAM4, \sk{make}, \sk{bash})
 \item Frontend work on a user-facing dashboard to view pump status and modify settings (\sk{HTML}, \sk{JS})
@@ -88,18 +94,38 @@ I was responsible for:
 %\setlength{\columnseprule}{0.4pt}
 %\columnbreak
 
-\light{\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}}
+
+\begin{figure}[H]
+	%	\makebox[\textwidth][c]{
+	\centering
+	\captionsetup{labelformat=empty}
+	
+	\subfloat[][]{
+		\includegraphics[height=0.2\textwidth]{image1}
+	}
+	\subfloat[]{
+		\includegraphics[height=0.2\textwidth]{safesump.png}
+	}
+	\caption*{Controller designed for SafeSump Inc.}
+	\hfill
+\end{figure}
+
+%\light{\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}}
 
 \begin{tcolorbox}
 	\textbf{Education:} B.Sc. in Science from York University. Graduated January 2021. \href{https://learner.mycreds.ca/#/sharelink/b664abe7-53a7-4d64-a0f1-bef16337edd0/57724eeb-34ab-4b79-b2a6-cd6bc311039e}{\textit{[verify diploma]}} \\
 	{\small(Emphasis on electrical engineering, computer science, experimental physics, statistics, chemistry, mathematics, misc)}
 \end{tcolorbox}
 % add more grade details
-
+ 
+\pagebreak
 
 \ressection{Projects and skills}
 
-Experience independently learning and applying skills as needed to contribute to broad, highly interdisciplinary projects. For example, one recent project involved:
+I believe I have experience contributing to broad, highly interdisciplinary projects with limited guidance.
+
+For example, one recent project involved:
+%I believe I have experience independently learning and applying skills as needed to effectively contribute to broad, highly interdisciplinary projects. 
 %Fully independently designed and carried out an 18-month experiment in the field of bioelectrics on a tight budget, involving
 \begin{itemize}\itemoptions
 	\item A \href{https://github.com/0xDBFB7/fluorescence_photon_counting/releases/download/v0.01/fluorescence.pdf}{custom synchronous photon counting fluorescence system}, capable of detecting less than a nanogram of dsDNA without amplification (\sk{MAX10 and Cyclone IV FPGAs}, \sk{Verilog HDL})
@@ -109,7 +135,7 @@ Experience independently learning and applying skills as needed to contribute to
 	\item Technical writing, documentation in \sk{LaTeX}, \sk{Jupyter notebooks}, bibliography management with Zotero and Refbase
 %	\item Data visualization with Paraview, Chimera analysis with \sk{Python}
 	%	\item Reviewing some 5,000 pages of scientific literature spanning 2,300 papers, highlighting 157 cited
-	\item Hardware design and CNC mill and lathe operation
+	\item CAD/CAM mechanical design and CNC mill and lathe operation
 	\item Molecular dynamics simulation with GROMACS
 	%	\item BSL-1 microbiology with E. coli B and T4 bacteriophage culture and plaque assays
 	\item Managing import paperwork, safety, and disposal of chemical reagents
@@ -117,7 +143,9 @@ Experience independently learning and applying skills as needed to contribute to
 	\item Collaborating and consulting with subject-matter experts
 \end{itemize}
 
-\pagebreak
+
+
+%\pagebreak
 
 Other representative projects include:
 
@@ -144,19 +172,19 @@ Other representative projects include:
 
 Occasional board-level repair of Mazak and Haas CNC machines. A successful repair is documented \href{https://0xdbfb7.com/meldas.html}{here}.
 
-\ressection{Notable deficiencies of experience}
+%\ressection{Notable deficiencies of experience}
+%
+%I have completed real-world projects using each of the listed technologies and others not listed, and I am confident that I can contribute to any of the subjects listed above. However, there are also certain large fields which would require a very significant time expenditure to work efficiently. Some examples of fields for which more experienced candidates :
+%
+%\begin{itemize}\itemoptions
+%	\item R or FORTRAN
+%	\item Advanced physics or mathematics
+%	\item Organic chemistry
+%	\item well, most things, on balance
+%\end{itemize}
 
-I have completed real-world projects using each of the listed technologies, and I am confident that I can contribute to any of the subjects listed above. However, certain large fields would require a very significant time expenditure to work efficiently. Some examples of fields for which more experienced candidates :
 
-\begin{itemize}\itemoptions
-	\item R or FORTRAN
-	\item Advanced physics or mathematics
-	\item Organic chemistry
-	\item well, most things, on balance
-\end{itemize}
-
-
-\light{\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}}
+%\light{\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}}
 
 
 %
@@ -183,18 +211,18 @@ I have completed real-world projects using each of the listed technologies, and 
 %\begin{figure}[H]
 %	%	\makebox[\textwidth][c]{
 %	\centering
-%	\subfloat[]{
-%		\includegraphics[width=0.4\textwidth]{image1}
-%		
+%	\captionsetup{labelformat=empty}
+%	
+%	\subfloat[][]{
+%		\includegraphics[height=0.1\textwidth]{image1}
 %	}
 %	\subfloat[]{
-%		\includegraphics[width=0.4\textwidth]{safesump.png}
-%		
+%		\includegraphics[height=0.1\textwidth]{safesump.png}
 %	}
 %	\caption*{Controller designed for SafeSump Inc.}
 %	\hfill
-%	
 %\end{figure}
+
 %
 %%\begin{figure}[H]
 %%	%	\makebox[\textwidth][c]{

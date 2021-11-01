@@ -18,7 +18,7 @@
 \usepackage[utf8]{inputenc}
 
 %\usepackage[sfdefault]{roboto}
-\usepackage[sfdefault]{roboto}
+\usepackage[sfdefault,light]{roboto}
 
 
 \usepackage{noweb}
@@ -37,7 +37,7 @@
 \makeatletter
 \Hy@AtBeginDocument{%
 	\def\@pdfborder{0 0 1}% Overrides border definition set with colorlinks=true
-	\def\@pdfborderstyle{/S/U/W 0.3}% Overrides border style set with colorlinks=true
+	\def\@pdfborderstyle{/S/U/W 0.5}% Overrides border style set with colorlinks=true
 	% Hyperlink border style will be underline of width 1pt
 }
 \makeatother
@@ -264,3 +264,4 @@
 }
 
 \DeclareFieldFormat{journaltitle}{\usebibmacro{string+doiurlisbn}{\mkbibemph{#1}}}
+
