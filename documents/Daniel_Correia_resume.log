@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.9.8)  29 OCT 2021 15:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.9.8)  10 NOV 2021 15:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2432,6 +2432,26 @@ ma-chines. A suc-cess-ful re-pair is doc-u-mented [][]here\U/fontawesometwo/l/n
  []
 
 
+! LaTeX Error: \begin{document} ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.184 \end{itemize}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.184 \end{itemize}
+                   
+Things are pretty mixed up, but I think the worst is over.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 192--193
 
  []
@@ -2698,7 +2718,7 @@ f-dist/fonts/type1/google/roboto/Roboto-BoldItalic.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/google/roboto/Roboto-Light.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/google/roboto/Roboto-LightItalic.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/google/roboto/Roboto-Thin.pfb>
-Output written on Daniel_Correia_resume.pdf (2 pages, 452864 bytes).
+Output written on Daniel_Correia_resume.pdf (2 pages, 455268 bytes).
 PDF statistics:
  70 PDF objects out of 1000 (max. 8388607)
  56 compressed objects within 1 object stream
