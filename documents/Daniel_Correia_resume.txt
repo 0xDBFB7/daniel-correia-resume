@@ -1,77 +1,82 @@
 Hi, I’m Daniel!
+
 Science rules!
 
 Daniel Correia
+github.com/0xDBFB7
 therobotist@gmail.com (preferred)
-https://github.com/0xDBFB7
 1-705-606-8866
 
-Education: B.Sc. in Science from York University. Graduated January 2021. 
+[ SafeSump Inc. ]
 
-[ diploma can be verified via: https://learner.mycreds.ca/#/sharelink/b664abe7-53a7-4d64-a0f1-bef16337edd0/57724eeb-34ab-4b79-b2a6-cd6bc311039e  ]
+Co-founder and CTO of a project to design and manufacture a failure-resistant internet-connected water pump system to reduce the incidence of ﬂooding in homes.
 
-    [SafeSump Inc.]
+Together with a partner company specializing in hydrogeology, we simultaneously collected and analyzed data from the systems in an attempt to better inform municipalities on groundwater ﬂow.
 
-Founder and CEO of four-year project to design and produce a failure-resistant internet-connected water pump system to reduce ﬂooding in homes.
-
-Obtained $37,500 Ontario Centres of Excellence grant #26828 (2016-2020) and $75,000 Federation of Canadian Municipalities contract (2018-2020) to develop and install systems in 50 homes.
+Obtained $37,500 Ontario Centres of Excellence grant #26828 (2016-2020) and fulﬁlled $75,000 Federation of Canadian Municipalities contract (2018-2020) to develop and install systems in 50 homes.
 
 I was responsible for:
 
-- Developing backend data collection API (Python, Linux+Apache stack, PostgreSQL) and frontend UI
-- Hardware design for embedded electronic controller (KiCAD and Eagle)
+- Developing backend data collection API (Python, Linux+Apache stack, PostgreSQL, Git)
+- Hardware design and SMD prototyping for embedded electronic controller (KiCAD and Eagle)
+- Pair programming secure ﬁrmware and OTA system (embedded C and C++ on STM32 and SAM4, make,
+bash)
+- Frontend work on a user-facing dashboard to view pump status and modify settings (HTML, JS)
 - Conducting presentations and reporting to partners
-- Pair programming secure ﬁrmware (10k lines of embedded C on STM32 and SAM4, C++, make, bash),
 - Developing data analysis, replication, ﬁltering algorithms (Python, gnuplot)
-- Managing production processes, asset tracking, hardware-in-the-loop test systems,
-- Series production of custom waterproof capacitive and ultrasonic sensors,
-- Version control (Git)
+- Managing production processes, asset tracking, hardware-in-the-loop test systems
+- Creating test cells and batch programming systems for custom capacitive and ultrasonic sensors
 
-    [Technical reports]
 
-Fully independently designed and carried out an 18-month experiment in the ﬁeld of bioelectrics on a tight budget, involving
+[ Education ]
 
-- A custom 12 GHz microwave spectrometer and automated microﬂuidic sampling system
-- Custom FDTD electromagnetic simulation software, now contributed upstream
-- Documentation in LaTeX, Jupyter notebooks, bibliography management with Zotero and Refbase
-- Data visualization with Paraview and Chimera, analysis with Python
-- Reviewing some 5,000 pages of scientiﬁc literature spanning 2,300 papers, highlighting 157 cited
-- A custom synchronous photon counting ﬂuorescence system, capable of detecting single-digit nanograms of DNA without ampliﬁcation (MAX10 and Cyclone IV FPGAs, Verilog HDL, photomultipliers)
-- CNC mill and lathe operation
+
+B.Sc. in Science from York University. Graduated January 2021.
+(Emphasis on electrical engineering, computer science, experimental physics, statistics, chemistry, mathematics, misc)
+[ diploma can be verified via: https://learner.mycreds.ca/#/sharelink/b664abe7-53a7-4d64-a0f1-bef16337edd0/57724eeb-34ab-4b79-b2a6-cd6bc311039e ]
+
+
+[ Projects and skills ]
+
+I believe I have experience contributing to broad, highly interdisciplinary projects with limited guidance.
+
+For example, one recent project involved:
+
+- A custom synchronous photon counting ﬂuorescence system 
+( https://github.com/0xDBFB7/fluorescence_photon_counting/releases/download/v0.01/fluorescence.pdf ), 
+capable of detecting less than a nanogram of dsDNA without ampliﬁcation (MAX10 and Cyclone IV FPGAs, Verilog HDL)
+- Custom FDTD electromagnetic simulation software, now contributed upstream (PyTorch)
+- Scientiﬁc programming with JuliaLang, analysis with Python, symbolic mathematics with Maxima, SymPy, Mathematica, MATLAB
+- Developing a custom 12 GHz microwave spectrometer and automated microﬂuidic sampling system
+- Technical writing, documentation in LaTeX, Jupyter notebooks, bibliography management with Zotero
+and Refbase
+- CAD/CAM mechanical design and CNC mill and lathe operation
 - Molecular dynamics simulation with GROMACS
-- BSL-1 microbiology with E. coli B and T4 bacteriophage culture and plaque assays
 - Managing import paperwork, safety, and disposal of chemical reagents
 - Negotiating material transfer agreements for datasets
-- Symbolic mathematics with Maxima, SymPy, Mathematica, MATLAB
-- Falling in love with JuliaLang
+- Collaborating and consulting with subject-matter experts
 
-Preliminary technical report available at https://doi.org/10.5281/zenodo.4568506
+Other representative projects include:
 
-    [High vacuum systems]
-
-- 0xDBFB7/ionprinter/: A cursory exploration of high-current ion beam lithography techniques.
-Led to the following spinoff projects:
 - Nyion ( https://github.com/0xDBFB7/Nyion ): a custom GPU-accelerated plasma simulation program using the particle-in-cell method on a custom block-structured mesh data structure for high computational efﬁciency (C++, cmake, OpenGL, gTest, minor HPC with CUDA, OpenCL, OpenMP+4.5 ofﬂoad)
-- An inexpensive furnace ( https://0xdbfb7.com/furnace.html ) capable of sintering oxide ceramics: an attempt to make various high-performance ceramic techniques available to a broader audience, built on the work of more than 200 scientiﬁc papers.
-- An inexpensive aftermarket controller ( https://github.com/0xDBFB7/varian-turbo-controller ) for the Varian Turbo-V series of turbomolecular pumps
+- An inexpensive furnace capable of sintering oxide ceramics: an attempt to make various high-performance
+ceramic techniques available to a broader audience
+- An inexpensive aftermarket controller for the Varian Turbo-V series of turbomolecular pumps
 - Control software for an Inﬁcon BPG-400 vacuum gauge
 
-    [Kesti Engineering Ltd.]
+[Kesti Engineering Ltd.]
 
-Occasional board-level repair on Mazak and Haas CNC machines. A successful repair is documented here.
+Occasional board-level repair of Mazak and Haas CNC machines. A successful repair is documented here (https://0xdbfb7.com/meldas.html).
 
-No meaningful experience yet with
-- R or FORTRAN
-- Advanced physics or mathematics beyond ﬁrst-year graduate level
-- Most things, on balance
+[Notable deﬁciencies of experience]
 
-Personal:
-- Member of SimCoLab Barrie (now BRiX) hackerspace for 7 years.
+I have completed real-world projects using each of the listed technologies and others not listed, and I am conﬁdent that I can contribute to any of the subjects listed above. 
+
+However, there are also certain large ﬁelds which would require some time expenditure to work efﬁciently.
+
+Some examples of ﬁelds for which more experienced candidates likely exist include advanced physics or mathematics, organic chemistry, the R language, or FORTRAN.
+
+[Other activities]
+- 7 years as member of SimCoLab (now BRiX) hackerspace in Barrie, Ontario.
 - Part of FIRST Robotics Team 2013 Cybergnomes from 2010 to 2013
 - Canadian and German citizenship, native English, broken German
-- A video on electroadhesion
-
-for the enzyme β-galactosidase.
-(d) An FDTD simulation of electromagnetic interaction with tissue.
-
-
