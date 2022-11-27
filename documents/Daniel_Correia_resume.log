@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.9.8)  10 NOV 2021 15:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2022.4.16)  27 NOV 2022 13:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2703,7 +2703,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 268.
  ) 
 Here is how much of TeX's memory you used:
  41237 strings out of 494945
- 773575 string characters out of 6181033
+ 773575 string characters out of 6181032
  1201400 words of memory out of 5000000
  43806 multiletter control sequences out of 15000+600000
  94457 words of font info for 80 fonts, out of 8000000 for 9000
@@ -2718,7 +2718,7 @@ f-dist/fonts/type1/google/roboto/Roboto-BoldItalic.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/google/roboto/Roboto-Light.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/google/roboto/Roboto-LightItalic.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/google/roboto/Roboto-Thin.pfb>
-Output written on Daniel_Correia_resume.pdf (2 pages, 455268 bytes).
+Output written on Daniel_Correia_resume.pdf (2 pages, 455280 bytes).
 PDF statistics:
  70 PDF objects out of 1000 (max. 8388607)
  56 compressed objects within 1 object stream

@@ -1,0 +1,1 @@
+ grep -rli 'old-phone' * | xargs -i@ sed -i 's/old-phone/XXX-XXXX/g' @
