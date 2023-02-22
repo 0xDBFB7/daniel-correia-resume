@@ -3,11 +3,11 @@
 
 Daniel Correia
 
-30 Lamont Creek Drive
+<Address>
 
-Wasaga Beach, Ontario
+<city>
 
-L9Z 1J9
+<postal>
 
 
 Dear Recruiting Manager,
